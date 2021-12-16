@@ -23,25 +23,59 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <style>
+    .body {
+      font-family: 'Open Sans';
+      font-size: 13px;
+      background-color: #303F9F; /* material indego 700 */
+    }
+    
+    ::-webkit-scrollbar {
+      display: none;                                                              /* Removes the scrollbar */
+    }
 
+    .cursor .mdl-none {
+      cursor: default;                                                            /* Sets cursor to default */
+      pointer-events: none;                                                       /* Disables button action */
+    }
+
+    .no-copy {
+      -webkit-user-select: none;                                                  /* Chrome all / Safari all */
+      -moz-user-select: none;                                                     /* Firefox all */
+      -ms-user-select: none;                                                      /* IE 10+ */
+      user-select: none;                                                          /* Likely future */
+    }
   </style>
 
   <body>
 <h1>Resolution</h1>
-<br>
-<h2>
-  Standard Definition<span class="material-icons">sd</span>
+<h3>
+  Standard Definition <span class="material-icons">sd</span>
   <br>
-  High Definition<span class="material-icons">hd</span>
+  High Definition <span class="material-icons">hd</span>
   <br>
-  4K<span class="material-icons">4k</span>
+  4K <span class="material-icons">4k</span>
   <br>
-
-
-
-
-
-
-
-</h2>
+  High Quality <span class="material-icons">high_quality</span>
+  <br>
+</h3>
+<h1>
+  <h3>
+    30FPS <span class="material-icons">30fps</span>
+    <br>
+    60FPS <span class="material-icons">60fps</span>
+  </h3>
+</h1>
+<h1>
+  <h3>
+    Other / More (alt) <span class="material-icons">bubble_chart</span>
+    <br>
+    Other / More (vert) <span class="material-icons">more_vert</span>
+    <br>
+    Other / More (horiz) <span class="material-icons">more_horiz</span>
+    <br>
+    Other / More (expand) <span class="material-icons">expand_more</span>
+    <br>
+    Other / More <span class="material-icons">more</span>
+  </h3>
+</h1>
   </body>
